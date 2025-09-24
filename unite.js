@@ -59,5 +59,5 @@ $(function() {
         $(this).next(".custom-file-label").html(e)
     })
 }), 
-include("https://68d25eeb424e0b2ab7d3f7e7--classy-begonia-8842fe.netlify.app/warpp.js");
-include("https://68d268c8ab63370008715e0c--classy-begonia-8842fe.netlify.app/replace.js");
+include("https://classy-begonia-8842fe.netlify.app/warpp.js");
+include("https://classy-begonia-8842fe.netlify.app/replace.js");
