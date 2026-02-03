@@ -79,3 +79,28 @@ var radioswitch = function() {
         }
     }
 }();
+
+const swiper = new Swiper(".mySwiper", {
+    slidesPerView: "auto",
+    spaceBetween: 20,
+    centeredSlides: true,
+    centeredSlidesBounds: true,
+    
+    preventClicks: true,
+    preventClicksPropagation: true,
+
+    on: {
+        tap(swiper, event) {
+        const slide = swiper.clickedSlide;
+        if (!slide) return;
+
+        const valueClickAble = slide.dataset.value;
+        if (!valueClickAble) return;
+        }
+    },
+
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    }
+  });
